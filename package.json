@@ -1,0 +1,16 @@
+{
+  "name": "nodemysql",
+  "version": "1.0.0",
+  "description": "simple app for using mysql with node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Hassan M Yakub",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
